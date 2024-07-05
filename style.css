@@ -1,0 +1,81 @@
+body{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.snake{
+    background-color: green;
+    border: grey 1px dotted;
+}
+
+.game-board{
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin: 5px;
+}
+
+.game-border-1{
+    border: orangered solid 10px;
+  
+}
+
+.instruction{
+    position: absolute;
+    top: 60%;
+    color: black;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+    margin: 0;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+}
+
+.score{
+    color: black;
+
+}
+
+.score, .high-score{
+font-size: 40px;
+font-weight: bold;
+margin: 10px 0;
+}
+
+.high-score{
+    color: white;
+    display: none;
+    margin-left: 100px;
+}
+.result{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.high-result{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.food{
+    background-color: yellow;
+    border: grey 5px solid;
+}
+
+
+
+
+
